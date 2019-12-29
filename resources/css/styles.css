@@ -1,0 +1,475 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html{
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    color: #5a5a5a;
+    background-color:white;
+    text-rendering: optimizeLegibility;
+    position: absolute;
+}
+.clearfix::after{
+    content: " ";
+    display: table;
+    clear: both;
+  }
+body{
+    overflow-x: hidden;
+}
+/* ----------------------------- */
+/* ------HEADER----------------- */
+/* ------------------------------ */
+header{
+    height: 100vh;
+}   
+
+h3{
+    text-align:center;
+    margin: 10px;
+
+}
+h3:after{
+    content:"";
+    display: block;
+    background-color: #5a5a5a;
+    width: 580px;
+    height: 2px;
+    margin: 0 auto;
+    margin-top: 5px;
+}
+
+.roww{
+    text-emphasis: bold;
+}
+.roww th{
+    text-align: center;
+}
+.tenSV{
+    font-style: italic;
+}
+.tableSV{
+    font-weight: 140%;
+    margin-top: 50px;
+    margin-left: 20%;
+    text-align: left;
+    overflow:auto;
+    display: inline-table;
+    border-collapse: collapse;
+    height: 50%;
+    width: 60%;
+}
+td.MSSV{
+    width: 15%;
+}
+.tableSV,th,td{
+    border: 2px solid #6d95bd;
+}
+
+
+
+/*--------SECTION: MUC LUC ------*/
+.mucluc{
+    
+    background-image:linear-gradient(to top right ,rgba(255,255,255,0.9),rgba(255,255,254,0.9)),url(../img/Logo.jpg);
+    height: 100vh;
+  
+}
+.introduction-line{
+    width: 100%;
+    height: 120px;
+    background-image: linear-gradient(to top right ,rgba(255,255,255,0.2),rgba(0, 116, 225,0.8));
+}
+.introduction-logo{
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 80px;
+}
+.cong-nghe-in-3d{
+    text-transform: uppercase;
+    margin-left: 140px;
+    margin-top: -60px;
+    font-weight: 900px;
+    font-size: 150%;
+}
+.mucluc{
+    height: 100vh;
+}
+.table_mucluc{
+    width: 100%;
+}
+.STT,.Demuc,.trang{
+    border: none;
+}
+h4{
+    margin-left: 285px;
+    padding-top: 80px;
+    margin-bottom: 50px;
+    height: 75px;
+    text-transform: uppercase;
+    font-size: 180%;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color:#e67e22;
+    text-align: center;
+    display: block;
+}
+h4:after{
+    display: block;
+    content: " ";
+    background-color: #e67e22;
+    width: 150px;
+    height:2px;
+    margin:0 auto;
+    margin-top: 5px;
+}
+.mucluc h4{
+    margin-left: 0px;
+}
+/*----------SECTION: GIOI THIEU CHUNG ------------*/
+.gioithieuchung{
+    background-color: #f4f4f4;
+}
+
+.left-muc-luc{
+    font-size: 120%;
+    height: 100vh;
+    width:25%;
+    background-color: #f1f1f1;;
+    list-style-type: none;
+    position: fixed;
+    top: 0px;
+    margin-top: 100px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    padding-top: 20px;
+    visibility: hidden;
+    border-style: solid;
+    border-color: #494B68;
+    border-width: 500%;
+}
+.image-chung{
+    height: 200px;
+    display: block;
+}
+.tieude-left{
+    text-align: center;
+    font-size: 120%;
+}
+.left-muc-luc li, .left-muc-luc ul{
+    padding-top: 10px;
+}
+a.active {
+    background-color: #4CAF50;
+    color: #ffffff;
+}
+.left-muc-luc a{
+    display: block;
+    padding: 3px 1px 1px 16px;
+    text-decoration-color: #5a5a5a;
+    text-decoration: none;
+    color: #5a5a5a;
+}
+.left-muc-luc li a:hover{
+    background-color: #494B68;
+    color: whitesmoke;
+    text-decoration-color: whitesmoke;
+}
+.left-muc-luc li :active{
+    background-color: #4CAF50;
+    color: whitesmoke;
+}
+.left-muc-luc a:active{
+    background-color: #4CAF50;
+}
+/*.left-muc-luc a:hover{
+    background-color: green;
+    color: whitesmoke;
+}*/
+.noi-dung
+{   
+    
+    margin-left: 30%;
+    padding-top: 20px;
+    float:right;
+   /* width: 75%; */
+    /*padding-left: 20px; */
+    font-size: 120%;
+    line-height: 150%;
+    font-weight: 800px;
+}
+.para1{
+    display: block;
+}
+.row1{
+    width: 80%;
+}
+.row{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+}
+.tieude-left{
+    background-color: #494B68;
+    color: white;
+
+}
+/*-----------SECTION: QUY TRINH VA PHAN LOAI-----------------*/
+.Quytrinh-phanloai{
+    background-color: #f4f4f4;
+}
+/*-----------SECTION: LICH SU-----------------*/
+.text-gioithieu{
+    font-size: xx-large;
+    font-weight: 800;
+    font-family: fantasy;
+}
+/*-------------SECTION TRANG BIA ---------*/
+header{
+    background-image:linear-gradient(45deg,rgba(2,33,64, 0.8) 55%,rgba(45,95,93,0.85)),url("../img/DH-BK-TPHCM.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    /* view height */
+    background-attachment: fixed;
+    color: white;
+}
+.row-heading{
+    width: 1140px;
+    margin: 0 auto;
+    margin-top: 120px;
+}
+.main-nav{
+    float: right;
+    list-style: none;
+    margin-right: 50px;
+    margin-top: 55px;
+  }
+  
+  .main-nav li{
+    display: inline-block;
+    margin-right: 30px;
+  }
+  
+  .main-nav li a{
+    text-decoration: none;
+    color: white;
+    font-size: 110%;
+    font-weight: 700;
+    transition: border-bottom 0.5s;
+    padding: 3px 0;
+  }
+  
+  .main-nav li a:hover,
+  .main-nav li a:active{
+    border-bottom: 2px solid #cccccc;
+  }
+  h1{
+    font-size: 250%;
+  }
+  .heading_text2{
+    margin-top: 50px;
+  }
+  .logo{
+    width: 10%;
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    position: relative;
+}
+
+.btn{
+    text-decoration: none;
+    color: white;
+    background-color: #e67e22;
+    padding: 15px 30px;
+    border-radius: 20px;
+    margin: 0 5px;
+    width: 190px;
+    display: inline-block;
+    text-align: center;
+    transition: all .3s;
+    margin-top: 50px;
+    margin-right: 20px;
+    font-weight: 150%;
+}
+.btn:hover,
+.btn:active{
+  background-color: #d35400;
+}
+/*-------STICKY-------*/
+.sticky{
+    background-color: rgba(2,33,64,.9);
+   position: fixed;
+    height: 70px;
+    z-index: 900;
+    top: 0;
+    left: 0;
+}
+.sticky .logo{
+    width: 4%;
+    margin-top: 2px;
+}
+.sticky .main-nav{
+    margin-top: 30px;
+}
+.sticky2{
+    visibility: visible;
+}
+.sticky3{
+    animation: moveInLeft 2s ease-out;
+}
+/*----------ANIMATION------------*/
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    80% {
+        transform: translateX(10px)
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+/*--------SECTION ABOUT-HCMUT---------*/
+.about-hcmut{
+    background-image: linear-gradient(45deg,rgba(2,33,64,0.8),rgba(45,95,93,0.85)),url(../img/books_background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+.information{
+    list-style: none;
+    color: white;
+    line-height: 200%;
+    margin-top: 70px;
+    word-spacing: 1px;
+    margin-left: 40px;
+}
+.small-icon{
+    color: #427db4;
+    font-size: 130%;
+    margin-right: 10px;
+}
+.information i:hover,
+.information i:active{
+    transform: scale(1.3);
+}
+.social-icon{
+    margin-top: 50px;
+    list-style: none;
+    margin-left: 70px;
+}
+.social-icon li{
+    display: inline-block;
+    font-size: 250%;
+    margin-left: 20px;
+    color: white;
+}
+.social-icon li i{
+    transition: all .6;
+    cursor: pointer;
+}
+.social-icon li i:hover,
+.social-icon li i:active{
+    transform: scale(1.3);
+    color: #e67e22;
+}
+.about-hcmut h4{
+    margin-left: 0px;
+}
+#map{
+    margin-right: 30px;
+    margin-left: 20px;
+}
+h6{
+    color: white;
+    height: 80px;
+		text-align: center;
+		padding: 20px;
+        margin: 0px;
+        font-size: 90%;
+    margin-top: 10px;
+    font-weight: 500;
+}
+.about-hcmut .row{
+    margin-top: 200px;
+}
+/*--------------ABOUT US ------*/
+.about-us h4{
+    margin-left: 0px;
+}
+.about-us{
+    background-image: linear-gradient(45deg,rgba(2,33,64, 0.8) 55%,rgba(45,95,93,0.85)), url(../img/book-self-background.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+}
+blockquote{
+    width: 95%;
+    position: relative;
+    font-style: italic;
+    line-height: 140%;
+    color: white;
+    margin-bottom: 120px;
+    margin-top: 50px;
+}
+blockquote::before{
+    content: '\201C';
+    display: block;
+    font-size: 400%;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+}
+cite{
+    display: block;
+    color: #6d95bd;
+    margin-top: 25px;
+}
+.tacgia-quotes{
+    height: 60px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border: 2px solid #265077;
+    vertical-align: middle;
+}
+.student-name{
+    color: white;
+}
+.about-us p{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    font-weight: 150%;
+}
+/*---------FOOTER---------*/
+footer{
+    text-align: center;
+    background-color: #494949;
+    color: white;
+    padding: 30px;
+    position: relative;
+}
+footer i{
+    font-size: 150%;
+    color: white;
+}
+footer a{
+    position: absolute;
+    top: -19px;
+
+}
+footer i:hover,
+footer i:active{
+    transform: scale(1.3);
+    color: #e67e22;
+}

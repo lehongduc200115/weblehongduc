@@ -1,0 +1,25 @@
+/* Big tablet to 1200px */
+@media only screen and (max-width:1200px){
+    html{
+        font-size: 17px;
+    }
+    .row-heading{
+        margin-left: 50px;
+    }
+    .logo{
+        width: 7%;
+    margin-left: 30px;
+    }
+}
+/* Small tablet to big tabllet */
+@media only screen and (max-width:1023px){
+    
+}
+/*small phones to small tablet */
+@media only screen and (max-width:767px){
+    
+}
+/* Small phones */
+@media only screen and (max-width:480px){
+    
+}
